@@ -1,1 +1,13 @@
-/* You can add global styles to this file, and also import other style files */
+*{
+    margin: 0;
+}
+
+
+.container{
+    margin: clamp(1rem, 100vw, 2rem); /* Responsive height */;
+
+    max-width: 1920;
+}
+.relative{
+position: relative;
+}

@@ -1,0 +1,8 @@
+
+<div class="friend--box--wrapper"> 
+    <p *ngIf="fs.name.length===0">You dont have any friend now</p>
+  <div class="friend--box" *ngFor="let name of fs.name; let i = index">
+    <img src={{fs.img[i]}}>{{name}}
+  </div>
+</div>
+

@@ -1,0 +1,6 @@
+<div class="proposals--wrapper">
+  <div class="proposals">
+    <img src={{img}} alt="" />
+    <p>{{name}}</p>
+  </div>
+  <a *ngIf="canFollow" (click)="fs.addFriend(img,name) ;canFollow=false">Folgen</a>

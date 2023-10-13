@@ -1,0 +1,9 @@
+header{
+    padding: 4rem 0;
+    img{
+        max-width: 100%;
+        max-height: 100%;
+        height: clamp(auto, 15vw, auto); /* Responsive height */
+        width: clamp(10rem, 15vw, 12rem); /* Responsive width */
+    }
+}

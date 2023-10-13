@@ -1,0 +1,10 @@
+
+
+<app-profile [canFollow]="false"  [img]="image[0]" [name]="names[0]"></app-profile>
+
+<h2>Friend suggestions</h2>
+<div  *ngFor="let i of [1,2,3]">
+   <app-profile [img]="image[i]" [name]="names[i]"></app-profile> 
+</div>
+
+
